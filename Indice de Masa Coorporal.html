@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calcula tu IMC </title>
+	<style>
+	body 
+	{
+		background-color: #FFAAAA;
+		color: black;
+		font-family: Helvetica;
+
+    }
+   </style>
+</head>
+<body>
+	<h1> Calcula tu IMC </h1>
+
+	<script>
+		var peso = prompt("Cual es tu peso?");
+		var estatura = prompt("Cual es tu estatura?");
+		var IMC;
+        IMC = peso / (estatura * estatura);
+		document.write("Tu IMC es <strong> " + IMC.toFixed(4) + " </strong>");
+	</script>
+</body>
+</html>
+
